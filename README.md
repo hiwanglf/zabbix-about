@@ -51,3 +51,6 @@
 ## Detail
 **{ITEM.NAME}**: <font color=#0000FF> {ITEM.VALUE}</font>
 ```
+
+### 实现效果
+![image](https://github.com/hiwanglf/zabbix-about/blob/master/alertscripts/IMG_20190404_170717.jpg?raw=true)
