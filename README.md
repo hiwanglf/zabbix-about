@@ -8,9 +8,9 @@
 ### Action Configuration 
 下面只是消息体，操作步骤自己来就行了
 
+#### 发送告警的消息体
+请维护markdown的格式，此处的消息体需要遵循markdown格式
 ```
-# Operations
-
 ## ATTENTION
 <font color=#FF0000>**Severity**: {TRIGGER.SEVERITY} </font>
 
@@ -28,9 +28,11 @@
 
 ## Detail
 **{ITEM.NAME}**: <font color=#FF0000> {ITEM.VALUE} </font>
+```
 
-# Recovery Operations
-
+#### 恢复操作的消息体
+请维护markdown的格式，此处的消息体需要遵循markdown格式
+```
 ## RECOVERED
 <font color=#0000FF>**Severity**: {TRIGGER.SEVERITY}</font>
 
